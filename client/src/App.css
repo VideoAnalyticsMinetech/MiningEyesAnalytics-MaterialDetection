@@ -1,0 +1,731 @@
+/*---------------------------------------------------------global costumization---------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
+
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.body-bg {
+    background-color: #F5F5F5;
+}
+
+.shadow-all {
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.12);
+}
+
+.p-small {
+    font-size: 12px;
+    margin-top: -6px;
+    margin-bottom: 0px;
+}
+
+.p-medium {
+    font-size: 14px;
+    margin-top: -6px;
+    margin-bottom: 0px;
+}
+
+.notification-tag {
+    width: max-content;
+    height: 20px;
+    background-color: #F0F3FF;
+    border: 2px solid #B1C5F6;
+    font-size: 10px;
+}
+
+.notification-tag-true {
+    width: max-content;
+    height: 20px;
+    background-color: #D2F1DD;
+    border: 2px solid #8EDCA9;
+    font-size: 10px;
+}
+
+.notification-tag-false {
+    width: max-content;
+    height: 20px;
+    background-color: #F9D1CC;
+    border: 2px solid #F08C80;
+    font-size: 10px;
+}
+
+.notification-icon {
+    width: 14px;
+    height: 14px;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}
+
+.disabled {
+    pointer-events: none !important;
+}
+
+
+
+/*----------------------------------------------------navbar component costumization----------------------------------------------------*/
+.navbar-component .nav-border {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.navbar-component .logo {
+    width: 100%;
+}
+
+.navbar-component .navbar-brand {
+    width: 200px;
+}
+
+.navbar-component .navbar-brand:hover {
+    width: 200px;
+}
+
+.navbar-component .account-icon {
+    width: 24px;
+    height: 24px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.navbar-component .nav-item, .dropdown-item {
+    font-size: 14px;
+}
+
+.navbar-component .nav-link {
+    cursor: pointer;
+}
+
+.navbar-component .nav-link:hover {
+    color: #297209;
+}
+
+.navbar-component .dropdown-item:hover {
+    background-image: linear-gradient(to right, #DFF4DF, #DFF4DF);
+}
+
+.navbar-component .dropdown-item:focus {
+    background-image: linear-gradient(to left, #297209, #297209);
+}
+
+.navbar-component .page-current {
+    color: #297209;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+    pointer-events: none;
+}
+
+
+
+/*------------------------------------------cctv list button component component costumization------------------------------------------*/
+.cctvlistbutton-component .btn-success:hover {
+    background-image: linear-gradient(to right, #DFF4DF, #DFF4DF);
+    color: #3E4958 !important;
+    font-size: 10px !important;
+}
+
+.cctvlistbutton-component .btn-success {
+    background-image: linear-gradient(to right, white, white);
+    color: #3E4958 !important;
+    border: none !important;
+    font-size: small !important;
+    font-size: 10px !important;
+}
+
+.cctvlistbutton-component .btn-outline-success {
+    background-image: linear-gradient(to right, #3B9315, #297209);
+    color: white !important;
+    border: none !important;
+    font-size: small !important;
+    font-size: 10px !important;
+    pointer-events: none;
+}
+
+
+
+/*----------------------------------------notification filter component component costumization-----------------------------------------*/
+.notificationfilter-component .btn-success:hover {
+    background-image: linear-gradient(to right, #DFF4DF, #DFF4DF);
+    color: #3E4958 !important;
+    font-size: 10px !important;
+}
+
+.notificationfilter-component .btn-success {
+    background-image: linear-gradient(to right, white, white);
+    color: #3E4958 !important;
+    border: none !important;
+    font-size: small !important;
+    font-size: 10px !important;
+}
+
+.notificationfilter-component .btn-success:focus {
+    background-image: linear-gradient(to right, #3B9315, #297209);
+    color: white !important;
+    font-size: small !important;
+    font-size: 10px !important;
+}
+
+.notificationfilter-component .btn-outline-success {
+    background-image: linear-gradient(to right, #3B9315, #297209);
+    color: white !important;
+    border: none !important;
+    font-size: small !important;
+    font-size: 10px !important;
+    pointer-events: none;
+}
+
+
+
+/*-------------------------------------------notification list button component costumization-------------------------------------------*/
+.notificationlistbutton-component .btn-success:hover {
+    background-image: linear-gradient(to right, #DFF4DF, #DFF4DF);
+    color: #3E4958 !important;
+    font-size: 10px !important;
+}
+
+.notificationlistbutton-component .btn-success {
+    background-image: linear-gradient(to right, white, white);
+    color: #3E4958 !important;
+    border: none !important;
+    font-size: small !important;
+    font-size: 10px !important;
+}
+
+.notificationlistbutton-component .btn-success:focus {
+    background-image: linear-gradient(to right, #3B9315, #297209);
+    color: white !important;
+    font-size: small !important;
+    font-size: 10px !important;
+}
+
+.notificationlistbutton-component .details {
+    margin-top: -10px;
+}
+
+.notification-list .load-more a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+/*------------------------------------see all notification button component component costumization-------------------------------------*/
+.seeallnotificationbutton-component .btn-success:hover {
+    background-image: linear-gradient(to right, #297209, #297209);
+    color: white !important;
+    font-size: 10px !important;
+}
+
+.seeallnotificationbutton-component .btn-success {
+    background-image: linear-gradient(to right, #3B9315, #297209);
+    color: white !important;
+    font-size: small !important;
+    font-size: 10px !important;
+}
+
+
+
+/*----------------------------------------------validation button component costumization-----------------------------------------------*/
+.validationbutton-component .btn-success:hover {
+    background-image: linear-gradient(to right, #297209, #297209);
+    color: white !important;
+    font-size: 10px !important;
+    width: 76px;
+    height: 32px !important;
+}
+
+.validationbutton-component .btn-success {
+    background-image: linear-gradient(to right, #3B9315, #297209);
+    color: white !important;
+    font-size: 10px !important;
+    width: 76px;
+    height: 32px !important;
+}
+
+.validationbutton-component .btn-outline-success:hover {
+    background-image: linear-gradient(to right, #297209, #297209);
+    color: white !important;
+    font-size: 10px !important;
+    font-weight: bold !important;
+    width: 76px;
+    height: 32px !important;
+}
+
+.validationbutton-component .btn-outline-success {
+    color: #297209 !important;
+    font-size: 10px !important;
+    font-weight: bold !important;
+    width: 76px;
+    height: 32px !important;
+}
+
+
+
+/*-------------------------------------------------------login page costumization-------------------------------------------------------*/
+.login-page .bg-img {
+    background-image: url("./assets/background/bg_login.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-page .card {
+    width: 70%;
+    height: 82%;
+}
+
+.login-page .card-col-left {
+    width: 75%;
+    height: 90%;
+}
+
+.login-page .logo {
+    width: 70%;
+}
+
+.login-page .btn-success {
+    background-image: linear-gradient(to right, #3B9315, #297209);
+}
+
+.login-page .btn-success:hover {
+    background-image: linear-gradient(to left, #297209, #297209);
+}
+
+.login-page .checker-container {
+    margin-left: -24px;
+}
+
+.login-page .checker {
+    width: 20px;
+    height: 20px;
+}
+
+.login-page .view-container {
+    margin-left: -24px;
+}
+
+.login-page .view-container div {
+    width: 10px;
+    height: 10px;
+    margin-top: 6px;
+}
+
+.login-page .view {
+    width: 20px;
+    height: 20px;
+}
+
+.login-page .view:hover {
+    color: #297209 !important;
+    width: 20px;
+    height: 20px;
+}
+
+
+
+/*-------------------------------------------------live monitoring page costumization---------------------------------------------------*/
+.livemonitoring-body .notification-list {
+    height: 338px;
+}
+
+.livemonitoring-body .image-border {
+    border: solid #297209;
+}
+
+.livemonitoring-body .cam-navigation {
+    height: 32px;
+}
+
+.livemonitoring-body .navigation:hover {
+    color: #297209;
+    margin-top: 4px;
+}
+
+.livemonitoring-body .shadow-all {
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.12);
+}
+
+
+
+/*-------------------------------------------------validasi deviasi page costumization--------------------------------------------------*/
+.validasideviasi-body .validation-filter-icon {
+    color: #3E4958 !important;
+    width: 28px;
+    height: 28px;
+    border: 1px solid #297209;
+}
+
+.validasideviasi-body .validation-filter-icon:hover {
+    background-image: linear-gradient(to right, #DFF4DF, #DFF4DF);
+    color: #3E4958 !important;
+    width: 28px;
+    height: 28px;
+}
+
+.validasideviasi-body .validation-filter-icon:active {
+    background-image: linear-gradient(to right, #3B9315, #297209);
+    color: white !important;
+    width: 28px;
+    height: 28px;
+}
+
+.validasideviasi-body .validation-filter-icon:focus {
+    background-image: linear-gradient(to right, #3B9315, #297209);
+    color: white !important;
+    width: 28px;
+    height: 28px;
+}
+
+.validasideviasi-body .dropdown-menu .dropdown-item:hover {
+    background-image: linear-gradient(to right, #DFF4DF, #DFF4DF);
+    color: #3E4958 !important;
+}
+
+.validasideviasi-body .dropdown-menu .dropdown-item {
+    background-image: linear-gradient(to right, white, white);
+    color: #3E4958 !important;
+    border: none !important;
+    font-size: small !important;
+}
+
+.validasideviasi-body .dropdown-menu .dropdown-item:focus {
+    background-image: linear-gradient(to right, #3B9315, #297209);
+    color: white !important;
+    border: none !important;
+    font-size: small !important;
+}
+
+.validasideviasi-body .dropdown-menu .dropdown-item-active {
+    background-image: linear-gradient(to right, #3B9315, #297209);
+    color: white !important;
+    pointer-events: none;
+}
+
+.validasideviasi-body .dropdown-menu .dropdown-item-active:hover {
+    background-image: linear-gradient(to right, #3B9315, #297209);
+    color: white !important;
+}
+
+.validasideviasi-body .deviasi-image-container {
+    width: 71%;
+}
+
+.validasideviasi-body .deviasi-img {
+    height: 315px;
+}
+
+.validasideviasi-body .image-border {
+    border: solid #297209;
+}
+
+.validasideviasi-body .notif-icon {
+    margin-top: -6px;
+    margin-bottom: 0px;
+}
+
+.validasideviasi-body .notification-list {
+    height: 380px;
+}
+
+.validasideviasi-body .notificationlistbutton-component .btn-outline-success {
+    background-image: linear-gradient(to right, #3B9315, #297209);
+    color: white !important;
+    border: none !important;
+    font-size: small !important;
+    font-size: 10px !important;
+    pointer-events: none;
+}
+
+.validasideviasi-body .disabled-textarea {
+    pointer-events:none;
+}
+
+
+
+/*-------------------------------------------------data tervalidasi page costumization--------------------------------------------------*/
+.datatervalidasi-body .input-group {
+    width: 240px !important;
+    margin-top: -12px;
+}
+
+.datatervalidasi-body .input-group-text {
+    background-color: white !important;
+}
+
+.datatervalidasi-body .filter-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.datatervalidasi-body .btn-success:hover {
+    background-image: linear-gradient(to right, #297209, #297209);
+    color: white !important;
+    font-size: 10px !important;
+    width: 84px;
+    height: 32px !important;
+}
+
+.datatervalidasi-body .btn-success {
+    background-image: linear-gradient(to right, #3B9315, #297209);
+    color: white !important;
+    font-size: 10px !important;
+    width: 84px;
+    height: 32px !important;
+}
+
+.datatervalidasi-body .input-group .btn-success {
+    background-image: linear-gradient(to right, transparent, transparent);
+    color: black !important;
+    border-color: lightgray;
+    font-size: 14px !important;
+    width: 140px;
+    height: 38px !important;
+}
+
+.datatervalidasi-body .input-group .btn-success:hover {
+    background-image: linear-gradient(to right, lightgray,);
+    color: black !important;
+    border: none;
+    font-size: 14px !important;
+    width: 140px;
+    height: 38px !important;
+}
+
+.datatervalidasi-body .button-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.datatervalidasi-body .table {
+    font-size: 12px;
+}
+
+.datatervalidasi-body .overflow-auto {
+    max-height: 350px;
+}
+
+.datatervalidasi-body .table .data-img {
+    width: 80px;
+}
+
+.datatervalidasi-body .table-success {
+    background-image: linear-gradient(to right, #3B9315, #3b9315) !important;
+    color: white;
+}
+
+.datatervalidasi-body .modal-img {
+    height: 260px;
+}
+
+.datatervalidasi-body .btn-outline-success:hover {
+    background-image: linear-gradient(to right, #297209, #297209);
+    color: white !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
+    width: 48px;
+    height: 24px !important;
+}
+
+.datatervalidasi-body .btn-outline-success {
+    background-image: linear-gradient(to right, #3B9315, #297209);
+    color: white !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
+    width: 48px;
+    height:24px !important;
+}
+
+.datatervalidasi-body .modal-icon {
+    width: 20px;
+    margin-top: -16px;
+}
+
+.datatervalidasi-body .date-modal .modal-content {
+    margin: 49px;
+}
+
+.datatervalidasi-body .date-modal .modal-body {
+    padding: 0px !important;
+}
+
+
+
+/*-----------------------------------------------------------calendar component-----------------------------------------------------------*/
+.react-calendar {
+    width: 400px;
+    max-width: 100%;
+    background-color: #fff;
+    color: #222;
+    border-radius: 8px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.125em;
+}
+
+.react-calendar--doubleView {
+    width: 700px;
+}
+
+.react-calendar--doubleView .react-calendar__viewContainer {
+    display: flex;
+    margin: -0.5em;
+}
+
+.react-calendar--doubleView .react-calendar__viewContainer>* {
+    width: 50%;
+    margin: 0.5em;
+}
+
+.react-calendar,
+.react-calendar *,
+.react-calendar *:before,
+.react-calendar *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.react-calendar button {
+    margin: 0;
+    border: 0;
+    outline: none;
+}
+
+.react-calendar button:enabled:hover {
+    cursor: pointer;
+}
+
+.react-calendar__navigation {
+    display: flex;
+    height: 44px;
+    margin-bottom: 1em;
+}
+
+.react-calendar__navigation button {
+    color: #297209;
+    min-width: 44px;
+    background: none;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.react-calendar__navigation button:disabled {
+    background-color: #f0f0f0;
+}
+
+abbr[title] {
+    text-decoration: none;
+}
+
+.react-calendar__navigation button:enabled:hover,
+.react-calendar__navigation button:enabled:focus {
+    background-color: #f8f8fa;
+}
+
+.react-calendar__month-view__weekdays {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.75em;
+}
+
+.react-calendar__month-view__weekdays__weekday {
+    padding: 0.5em;
+}
+
+.react-calendar__month-view__weekNumbers .react-calendar__tile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75em;
+    font-weight: bold;
+}
+
+/*.react-calendar__month-view__days__day--weekend {
+    color: #d10000;
+}*/
+
+.react-calendar__month-view__days__day--neighboringMonth {
+    color: #757575;
+}
+
+.react-calendar__year-view .react-calendar__tile,
+.react-calendar__decade-view .react-calendar__tile,
+.react-calendar__century-view .react-calendar__tile {
+    padding: 2em 0.5em;
+}
+
+.react-calendar__tile {
+    max-width: 100%;
+    padding: 10px 6.6667px;
+    background: none;
+    text-align: center;
+    line-height: 16px;
+}
+
+.react-calendar__tile:disabled {
+    background-color: #f0f0f0;
+}
+
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+    background: #f8f8fa;
+    color: #3B9315;
+    border-radius: 6px;
+}
+
+.react-calendar__tile--now {
+    background: #3B931533;
+    border-radius: 6px;
+    font-weight: bold;
+    color: #3B9315;
+}
+
+.react-calendar__tile--now:enabled:hover,
+.react-calendar__tile--now:enabled:focus {
+    background: #3B931533;
+    border-radius: 6px;
+    font-weight: bold;
+    color: #3B9315;
+}
+
+.react-calendar__tile--hasActive {
+    background: #3B931533;
+}
+
+.react-calendar__tile--hasActive:enabled:hover,
+.react-calendar__tile--hasActive:enabled:focus {
+    background: #f8f8fa;
+}
+
+.react-calendar__tile--active {
+    background: #3B9315;
+    border-radius: 6px;
+    font-weight: bold;
+    color: white;
+}
+
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+    background: #3B9315;
+    color: white;
+}
+
+.react-calendar--selectRange .react-calendar__tile--hover {
+    background-color: #f8f8fa;
+}
+
+.imageimage {
+    width: 100px;
+}
